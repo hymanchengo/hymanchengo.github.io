@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>数据结构与算法 | think-build-share</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    <link rel="icon" href="/vuepress/favicon.ico">
+    <script language="javascript" type="text/javascript" src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/js/MouseClickEffect.js"></script>
+    <meta name="description" content="Just playing around">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.4603f7b5.css" as="style"><link rel="preload" href="/assets/js/app.198c1c7f.js" as="script"><link rel="preload" href="/assets/js/3.e89c7bc2.js" as="script"><link rel="preload" href="/assets/js/1.f801d562.js" as="script"><link rel="preload" href="/assets/js/10.9e9a9a99.js" as="script"><link rel="prefetch" href="/assets/js/11.3ed6a9a8.js"><link rel="prefetch" href="/assets/js/12.1bec8c85.js"><link rel="prefetch" href="/assets/js/13.265db576.js"><link rel="prefetch" href="/assets/js/14.97e09b0a.js"><link rel="prefetch" href="/assets/js/15.2ec2469c.js"><link rel="prefetch" href="/assets/js/16.788c4eb5.js"><link rel="prefetch" href="/assets/js/17.3ba649a8.js"><link rel="prefetch" href="/assets/js/18.7dd75726.js"><link rel="prefetch" href="/assets/js/19.1aebbbde.js"><link rel="prefetch" href="/assets/js/20.dd8d4020.js"><link rel="prefetch" href="/assets/js/21.e249a984.js"><link rel="prefetch" href="/assets/js/22.4d68d91d.js"><link rel="prefetch" href="/assets/js/23.4ad45b35.js"><link rel="prefetch" href="/assets/js/24.be0c09ac.js"><link rel="prefetch" href="/assets/js/25.97582c89.js"><link rel="prefetch" href="/assets/js/26.777f93a1.js"><link rel="prefetch" href="/assets/js/27.b16f6d8c.js"><link rel="prefetch" href="/assets/js/28.ea08c8e9.js"><link rel="prefetch" href="/assets/js/29.24d6fb71.js"><link rel="prefetch" href="/assets/js/30.8510435b.js"><link rel="prefetch" href="/assets/js/31.6253aec9.js"><link rel="prefetch" href="/assets/js/32.0dd560a4.js"><link rel="prefetch" href="/assets/js/33.65361602.js"><link rel="prefetch" href="/assets/js/34.f27436cb.js"><link rel="prefetch" href="/assets/js/35.7ac29299.js"><link rel="prefetch" href="/assets/js/36.1925b76e.js"><link rel="prefetch" href="/assets/js/37.66334c26.js"><link rel="prefetch" href="/assets/js/38.ad378120.js"><link rel="prefetch" href="/assets/js/39.b8c80c17.js"><link rel="prefetch" href="/assets/js/4.6d2297c8.js"><link rel="prefetch" href="/assets/js/40.6e9acd1c.js"><link rel="prefetch" href="/assets/js/41.4c0dde9e.js"><link rel="prefetch" href="/assets/js/42.136aac0d.js"><link rel="prefetch" href="/assets/js/43.2ed33d60.js"><link rel="prefetch" href="/assets/js/44.5f0958a7.js"><link rel="prefetch" href="/assets/js/45.d8af4376.js"><link rel="prefetch" href="/assets/js/46.47414fa6.js"><link rel="prefetch" href="/assets/js/47.236a103d.js"><link rel="prefetch" href="/assets/js/48.eb854a20.js"><link rel="prefetch" href="/assets/js/49.d105ebf1.js"><link rel="prefetch" href="/assets/js/5.0bad958f.js"><link rel="prefetch" href="/assets/js/50.81578e80.js"><link rel="prefetch" href="/assets/js/51.50020fb7.js"><link rel="prefetch" href="/assets/js/52.ba1978dc.js"><link rel="prefetch" href="/assets/js/53.14cf8caf.js"><link rel="prefetch" href="/assets/js/54.50dcb08c.js"><link rel="prefetch" href="/assets/js/55.57c793c6.js"><link rel="prefetch" href="/assets/js/56.42aef2b5.js"><link rel="prefetch" href="/assets/js/57.d191e17d.js"><link rel="prefetch" href="/assets/js/58.cf46b1f1.js"><link rel="prefetch" href="/assets/js/59.2b663f38.js"><link rel="prefetch" href="/assets/js/6.fa56699c.js"><link rel="prefetch" href="/assets/js/60.e3407b1e.js"><link rel="prefetch" href="/assets/js/61.8f658a38.js"><link rel="prefetch" href="/assets/js/62.49cc39d7.js"><link rel="prefetch" href="/assets/js/63.312918bd.js"><link rel="prefetch" href="/assets/js/64.ad64e103.js"><link rel="prefetch" href="/assets/js/65.16e8c687.js"><link rel="prefetch" href="/assets/js/66.39969a99.js"><link rel="prefetch" href="/assets/js/67.c6bf4b85.js"><link rel="prefetch" href="/assets/js/68.a9569d5e.js"><link rel="prefetch" href="/assets/js/69.07dee552.js"><link rel="prefetch" href="/assets/js/7.e29bd960.js"><link rel="prefetch" href="/assets/js/70.6eb5c190.js"><link rel="prefetch" href="/assets/js/71.d9eeb169.js"><link rel="prefetch" href="/assets/js/72.4bd38647.js"><link rel="prefetch" href="/assets/js/73.4894419e.js"><link rel="prefetch" href="/assets/js/74.7ca0518b.js"><link rel="prefetch" href="/assets/js/75.992062db.js"><link rel="prefetch" href="/assets/js/76.0d4a6fb8.js"><link rel="prefetch" href="/assets/js/77.0e400fc3.js"><link rel="prefetch" href="/assets/js/78.856242bd.js"><link rel="prefetch" href="/assets/js/79.f33266da.js"><link rel="prefetch" href="/assets/js/8.530ccac1.js"><link rel="prefetch" href="/assets/js/80.c6e7e3b5.js"><link rel="prefetch" href="/assets/js/81.0076c66b.js"><link rel="prefetch" href="/assets/js/82.c3e5e4fb.js"><link rel="prefetch" href="/assets/js/83.fc52047e.js"><link rel="prefetch" href="/assets/js/84.f87af67f.js"><link rel="prefetch" href="/assets/js/85.cf37baf7.js"><link rel="prefetch" href="/assets/js/86.237cd68c.js"><link rel="prefetch" href="/assets/js/87.89e5e27f.js"><link rel="prefetch" href="/assets/js/88.fb79632a.js"><link rel="prefetch" href="/assets/js/9.827f66a6.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.4603f7b5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-9f1e2f90><div data-v-9f1e2f90><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-9f1e2f90 data-v-9f1e2f90><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-58d5ab76 data-v-9f1e2f90 data-v-9f1e2f90><h3 class="title" style="display:none;" data-v-58d5ab76 data-v-58d5ab76>think-build-share</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-58d5ab76 data-v-58d5ab76><input type="password" value="" data-v-58d5ab76> <span data-v-58d5ab76>Konck! Knock!</span> <button data-v-58d5ab76>OK</button></label> <div class="footer" style="display:none;" data-v-58d5ab76 data-v-58d5ab76><span data-v-58d5ab76><i class="iconfont reco-theme" data-v-58d5ab76></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-58d5ab76>vuePress-theme-reco</a></span> <span data-v-58d5ab76><i class="iconfont reco-copyright" data-v-58d5ab76></i> <a data-v-58d5ab76><span data-v-58d5ab76>think-build-share</span>
+            
+          <!---->
+          2021
+        </a></span></div></div> <div class="hide" data-v-9f1e2f90><header class="navbar" data-v-9f1e2f90><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">think-build-share</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask" data-v-9f1e2f90></div> <aside class="sidebar" data-v-9f1e2f90><div class="personal-info-wrapper" data-v-3eba7259 data-v-9f1e2f90><!----> <h3 class="name" data-v-3eba7259>
+    think-build-share
+  </h3> <div class="num" data-v-3eba7259><div data-v-3eba7259><h3 data-v-3eba7259>1</h3> <h6 data-v-3eba7259>Article</h6></div> <div data-v-3eba7259><h3 data-v-3eba7259>1</h3> <h6 data-v-3eba7259>Tag</h6></div></div> <hr data-v-3eba7259></div> <!----> <ul class="sidebar-links"><li><a href="/" aria-current="page" class="sidebar-link">首页</a></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>三省吾身</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>万丈高楼平地起</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Java</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>数据结构与算法</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/algorithm/algorithm.html" aria-current="page" class="active sidebar-link">数据结构与算法</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Web技术</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Spring</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Spring Boot</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>ORM</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>数据库</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>字符集</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>团队与实践</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>开发</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>工具</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>C(++)</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>软件设计</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>操作系统</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-58d5ab76 data-v-9f1e2f90><h3 class="title" style="display:none;" data-v-58d5ab76 data-v-58d5ab76></h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-58d5ab76 data-v-58d5ab76><input type="password" value="" data-v-58d5ab76> <span data-v-58d5ab76>Konck! Knock!</span> <button data-v-58d5ab76>OK</button></label> <div class="footer" style="display:none;" data-v-58d5ab76 data-v-58d5ab76><span data-v-58d5ab76><i class="iconfont reco-theme" data-v-58d5ab76></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-58d5ab76>vuePress-theme-reco</a></span> <span data-v-58d5ab76><i class="iconfont reco-copyright" data-v-58d5ab76></i> <a data-v-58d5ab76><span data-v-58d5ab76>think-build-share</span>
+            
+          <!---->
+          2021
+        </a></span></div></div> <div data-v-9f1e2f90><main class="page"><div class="page-title" style="display:none;"><h1 class="title">数据结构与算法</h1> <div data-v-42458482><i class="iconfont reco-account" data-v-42458482><span data-v-42458482>think-build-share</span></i> <!----> <!----> <!----></div></div> <div class="theme-reco-content content__default" style="display:none;"><h2 id="数据结构与算法"><a href="#数据结构与算法" class="header-anchor">#</a> 数据结构与算法</h2> <h2 id="why"><a href="#why" class="header-anchor">#</a> why</h2> <ul><li>大厂面试</li> <li>现代流行框架及中间件</li> <li>日常开发正确选用</li> <li>为编写开源框架打基础</li></ul> <h2 id="how-to-learn"><a href="#how-to-learn" class="header-anchor">#</a> how to learn</h2> <h3 id="学习方法"><a href="#学习方法" class="header-anchor">#</a> 学习方法</h3> <ul><li>找重点、不要死记硬背、学习数据结构和算法的来历，特点，解决什么问题，实际应用场景。</li> <li>思维锻炼、多问为什么，多思考。与他人交流。</li> <li>边学边练，适度刷题。代码实现。多写多练，没有捷径。
+<ul><li>方法和技巧</li> <li>坚持</li></ul></li> <li>立flag，打怪升级</li> <li>知识需要沉淀，不要试图一下子掌握所有，需要反复及沉淀</li> <li>最后这些学习方法迁移到其他技术的学习中。</li></ul> <h3 id="数据结构和算法目标"><a href="#数据结构和算法目标" class="header-anchor">#</a> 数据结构和算法目标</h3> <p>更快，更省</p> <h3 id="数据结构和算法中的思想"><a href="#数据结构和算法中的思想" class="header-anchor">#</a> 数据结构和算法中的思想</h3> <ul><li>双向链表数据结构使用了空间换时间的思想</li> <li>递归</li> <li>分治</li></ul> <h3 id="数据结构和算法衡量-重点"><a href="#数据结构和算法衡量-重点" class="header-anchor">#</a> 数据结构和算法衡量（重点）</h3> <p>复杂度分析</p> <h3 id="重点学习的数据结构"><a href="#重点学习的数据结构" class="header-anchor">#</a> 重点学习的数据结构</h3> <ul><li>数组</li> <li>链表</li> <li>栈</li> <li>队列</li> <li>散列表</li> <li>二叉树</li> <li>堆</li> <li>跳表</li> <li>图</li> <li>Trie树</li></ul> <h3 id="重点学习的算法"><a href="#重点学习的算法" class="header-anchor">#</a> 重点学习的算法</h3> <ul><li>递归</li> <li>排序</li> <li>二分查找</li> <li>搜索</li> <li>哈希算法</li> <li>贪心算法</li> <li>分治算法</li> <li>回溯算法</li> <li>动态规划算法</li> <li>字符串匹配算法</li></ul> <h3 id="算法技巧"><a href="#算法技巧" class="header-anchor">#</a> 算法技巧</h3> <ul><li>链表
+<ul><li>理解指针，指针的值就是另一个结点的地址。</li> <li>防止指针丢失（如x-&gt;y-&gt;z。删除y时x-&gt;next = y-&gt;next; y-&gt;next = null;这两个操作顺序不能颠倒 ）和内存泄露（删除结点，结点指针未设为null）</li> <li>使用哨兵结点（无数据结点，head=null）统一实现逻辑，屏蔽头尾结点的特殊处理（有哨兵结点的链表称为带头链表）</li> <li>检查边界条件处理，如无结点、1个结点，2个结点的场景</li> <li>复杂的场景使用示意图。</li></ul></li></ul> <h3 id="概览"><a href="#概览" class="header-anchor">#</a> 概览</h3> <p><img src="/assets/img/geek_algorithm.913e0aba.jpg" alt=""></p><div style="text-align:center;font-size:14px;color:#C0C0C0;text-decoration:underline;">引自https://time.geekbang.org/column/article/40011</div><p></p> <h2 id="what"><a href="#what" class="header-anchor">#</a> what</h2> <h3 id="数据结构"><a href="#数据结构" class="header-anchor">#</a> 数据结构</h3> <p>数据的存储结构</p> <h3 id="线性表"><a href="#线性表" class="header-anchor">#</a> 线性表</h3> <p>线性表上的数据最多只有前后两个方向。如下图所示
+<img src="/assets/img/line.2fb4753c.jpg" alt=""></p><div style="text-align:center;font-size:14px;color:#C0C0C0;text-decoration:underline;">引自https://time.geekbang.org/column/article/40961</div><p></p> <h4 id="数组"><a href="#数组" class="header-anchor">#</a> 数组</h4> <blockquote><p>数组为什么从0开始编号，而不是更符合人类直觉的1？</p></blockquote> <p>数组特性</p> <ul><li>线性数据结构</li> <li>连续的内存空间</li> <li>存储相同类型的数据</li> <li>随机访问</li> <li>插入，删除低效
+<ul><li>根据考虑插入位置，探讨</li> <li>尾插/删：最好时间复杂度O(1)</li> <li>头插/删：最坏时间复杂度O(n)</li> <li>平均时间复杂度(1+..+n)/n = O(n)</li> <li>在特殊场景下，可以优化插入，如在k位置插入一个新元素，可以将新元素插入k位置，而k位置原先的元素直接移到数组末尾。这样复杂度为O(1)</li> <li>在特殊场景下，可以优化删除，标记删除元素，而不立即删除，等数据大小不够用时触发删除，这样避免频繁移动元素。这样复杂度为O(1)。这和jvm gc Mark-Sweep算法核心思想一致。</li></ul></li></ul> <p>数组为什么可以随机访问？
+因为连续的内存空间和相同类型数据这2个特性使得任何一个数组元素的存储地址可以被直接计算出，因此可以直接访问。
+因此第n个元素存储地址的计算：初始地址 + (n * 1个数据元素占据地址范围)。第一个元素地址就是初始地址，因此n取0。如果n从1开始编号，则计算每个元素存储地址的时候需要额外进行n-1的计算。</p> <p>数组相关时间复杂度</p> <ul><li>随机访问O(1)</li></ul> <p>C语言数组越界问题
+由于C语言直接访问内存，下面示例数组越界访问<code>arr[3]</code>，如果这个内存存放的是i，那么i又被置为0，戏剧的事情发生了，就会一直循环下去。</p> <div class="language-c extra-class"><pre class="language-c"><code><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword">int</span> argc<span class="token punctuation">,</span> <span class="token keyword">char</span><span class="token operator">*</span> argv<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> arr<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">;</span> <span class="token comment">//arr长度为3</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token punctuation">;</span> i<span class="token operator">&lt;=</span><span class="token number">3</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span> <span class="token comment">// i 从0到3。3的时候越界</span>
+        arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> 
+        <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;hello world\n&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>Java ArrayList与数组
+Java中的ArrayList是数组实现的。它的优点是提供了丰富的操作数组的API，使用者无需关系数组越界，容量不够的问题。容量不够时会自动进行扩容。<br>
+数组相较于ArrayList的使用场景
+- 性能要求高，直接使用数组
+- 基础数据类型，使用数组
+- 简单数组操作</p> <p>Java中数组为什么限制大小为<code>private static final int MAX_ARRAY_SIZE = Integer.MAX_VALUE - 8;</code> 通过length属性可以看到定义为int。那为什么不定义long？
+Integer.MAX_VALUE为2^31，约2G。我们pc内存常见有4G,8G,16G等。如果用long表示数组大小，那可表示的内存大小远远超过我们现在使用的内存，完全没有必要。</p> <h4 id="链表"><a href="#链表" class="header-anchor">#</a> 链表</h4> <p>经典使用场景：LRU缓存淘汰算法</p> <blockquote><p>缓存：提高数据读取性能的常用技术，常见的有CPU 1,2,3级缓存。内存缓存。浏览器缓存。</p></blockquote> <p>缓存通常都不会太大，因此当缓存满了，按照什么策略进行清理呢？常见的有先进先出FIFO,最少使用LFU,最近最少使用LRU。
+类比对衣橱里的衣服进行整理，为新买衣服腾空间，最常见的就是把最早买的那批先打包，因为旧了。其次对不怎么想穿的进行打包，最后最近不怎么用到的打包，比如冬天了，夏天的衣服就先打包。</p> <p>链表vs数组</p> <ul><li>内存利用率
+数组需要连续存储空间，而链表则不需要，链表用指针串起元素结点，那么链表较数组可以利用碎片内存空间，内存利用率高。</li> <li>性能
+<ul><li>数组查找性能高O(1)，链表查找性能低O(n)</li> <li>数组插入、删除性能低O(n)，链表插入删除性能高O(1)</li> <li>因为数组是连续的内存空间，对于CPU缓存较为友好，因为CPU缓存可以轻易读入一段连续空间。而链表因为内存空间不连续，则CPU一次读取，可能不能加载整个链表（寻址）。</li></ul></li> <li>动态扩展性
+<ul><li>创建新数组需要定义大小，如果事先知道所需的尺寸，按需申请是没问题，一旦不能或错误估计数组大小，那么要么空间申请大了浪费，要么申请小了，需要动态扩容并拷贝，效率低。链表的结构则更为灵活，
+天然支持动态扩展。</li></ul></li> <li>内存碎片
+<ul><li>链表频繁插入，删除，可能导致更多的内存碎片，需要更频繁的gc。
+链表术语
+结点：链表上的每个内存块，包括数据和指针两部分
+后继指针next：结点中指向下个内存块地址的部分</li></ul></li></ul> <p>链表种类</p> <ul><li>单链表
+<ul><li>不同节点个数的链表
+<ul><li>0个结点：空链表</li> <li>1个结点：结点指针不指向任何其他结点，指针为NULL。1个结点既是头结点，也是尾结点。头结点记录链表基地址</li> <li>2个结点：头结点指向尾结点</li> <li>3个以上节点：头结点只有后继结点，中间结点有前驱和后继节点，尾结点只有前驱结点</li></ul></li> <li>特性
+<ul><li>插入/删除
+<ul><li>时间复杂度O(1)，(这边的时间复杂度不包括查找的复杂度) 在x-&gt;z链表中插入y, x-&gt;y, y-&gt;z，在x-&gt;y-&gt;z链表中删除y,x-&gt;z, y-&gt;null</li></ul></li> <li>访问
+<ul><li>时间复杂度O(n)</li></ul></li></ul></li></ul></li> <li>循环链表
+<ul><li>原先单链表的尾结点指向头结点形成了循环链表，循环链表每个结点都有前驱和后继结点。</li> <li>约瑟夫问题</li></ul></li> <li>双向链表
+<ul><li>每个结点有两个指针，分别指向前驱结点和后继结点，因此比存储相同数据的单链表更加占用空间。</li> <li>可以按两个方向遍历链表
+<ul><li>给定结点，删除（插入）其前驱结点，双向链表通过前驱指针即可定位到前驱结点，时间复杂度O(1)，而单链表则需从链表头部开始查找，时间复杂度O(n)</li> <li>给定值，删除（插入）其前驱，则单链表和双向链表则要从头遍历找出值等于给定值的节点进行操作，时间复杂度都为O(n)</li></ul></li> <li>体现了空间换时间的思想
+<ul><li>缓存也体现了空间换时间</li></ul></li></ul></li> <li>双向循环链表</li></ul> <p>Java中LinkedHashMap</p> <h4 id="栈"><a href="#栈" class="header-anchor">#</a> 栈</h4> <p>栈可以形象理解为将洗碗池的盘子堆起来然后再将盘子一一摆到桌子上的过程。
+栈特性：先进后出、后进先出
+栈是操作受限的线性表，只能单端压入，弹出元素。
+栈完全可以用数组和链表模拟，为什么还提供栈这种数据结构？栈又适用于哪些场景？</p> <h4 id="队列"><a href="#队列" class="header-anchor">#</a> 队列</h4> <p>线程池设定多大合适？是不是越大越好？
+是不是线程数越多，任务处理越快？这不是简单的线性关系，因为受CPU资源的限制。我们可以想象，在CPU资源空闲时间，任务处理速度和线程数呈线性关系。当CPU占用率达到一定的数值后，线性关系便不能满足，
+而且由于线程数目的增加，导致CPU频繁切换。性能下降。
+因此线程池的大小需要综合考虑处理的任务特点和硬件环境来事先设置。
+队列在生活中经常看到，如典型的排队打饭场景。
+队列特性：先进先出。
+队列也是操作受限的数据结构，队尾入队，队头出队。
+队列分类</p> <ul><li><p>顺序队列
+用数组实现的队列
+用2个指针，1个执行队头，一个指向队尾。当出队时移动队头指针，当入队时移动队尾指针，当队尾指针移到数组最大长度时，将没有空间，此时可以触发一下数据搬移，将队头到队尾的这部分元素搬移到数组开始后连续的
+位置，这样出队后入队的时间复杂度都是O(1)（出队的时间复杂度用均摊法计算出来为O(1)）</p></li> <li><p>链式队列
+用链表实现的队列。依然使用2个指针。</p></li> <li><p>循环队列。考虑队空（head = tail），队满的判定条件(tail + 1) % n = head
+解决顺序队列需要搬移数据的问题。
+特性队列</p></li> <li><p>阻塞队列</p> <ul><li>队头无元素可取，阻塞</li> <li>队尾无位置可入队，阻塞</li> <li>阻塞队列实现生产者消费者模型。
+<ul><li>消费者从队头取数据，没有则阻塞等待。</li> <li>生产者从队尾放数据，没有位置则等待。说明消费不过来。</li> <li>使用n个消费者，1个生产者的模式提示数据处理效率。</li></ul></li></ul></li> <li><p>并发队列</p> <ul><li>支持多线程环境操作的队列。</li> <li>线程安全的队列</li> <li>实现方式
+<ul><li>入队，出队加锁。粒度太大</li> <li>基于数组的循环队列，利用CAS操作
+对于资源优先的池，如线程池，数据库连接池，当无可用资源时，陆续到来的请求可以使用队列来实现请求排队，对于链表实现的队列是无界队列，请求队列可能相对较长，导致响应时间长，
+对于数组实现的队列，是有界队列，当排队的请求塞满队列时，后面的请求可以直接拒绝。</li></ul></li></ul></li></ul> <h3 id="非线性表"><a href="#非线性表" class="header-anchor">#</a> 非线性表</h3> <p>数据之间并非简单的前后关系，如下图所示
+<img src="/assets/img/notline.01993ace.jpg" alt=""></p> <h2 id="算法"><a href="#算法" class="header-anchor">#</a> 算法</h2> <p>操作数据的方法</p> <h3 id="数据结构与算法关系"><a href="#数据结构与算法关系" class="header-anchor">#</a> 数据结构与算法关系</h3> <ul><li>相辅相成，算法作用于特定的数据结构。也依托于特定数据结构（如二分查找依托数组的随机访问特性，而不能作用于链表上）。</li> <li>不同数据结构产生的算法也不同。</li> <li>数据结构可以类比为存储，算法类比为计算。</li> <li>数据结构是静态的，算法是盘活数据结构的关键。</li> <li>数据结构提供数据存储的方式，算法提供操作数据的方式。</li></ul> <h3 id="复杂度分析"><a href="#复杂度分析" class="header-anchor">#</a> 复杂度分析</h3> <p>衡量算法执行效率的指标：时间、空间复杂度分析<br>
+why复杂度分析？</p> <ul><li>事后统计法的局限
+<ul><li>测试结果依赖测试环境，如代码在i3和i9上跑的结果比对</li> <li>测试结果受规模影响大。如待排序数据的规模可能对评估算法的优劣产生不同的结果。另外排序数据有序性对算法评估也有影响。
+因此，基于事后统计法，即在实际机器上跑一下代码统计时空消耗的方法有诸多局限，我们需要粗略估计算法执行效率的方法</li></ul></li> <li>大O复杂度表示法（或渐进时间复杂度）（简称时间复杂度）<br>
+给定如下代码，假定每行代码执行耗时一样（记作u），那么耗时2nu + 2u，总执行时间T(n)与每行代码执行次数成正比。</li></ul> <div class="language-java extra-class"><pre class="language-java"><code> <span class="token keyword">int</span> <span class="token function">cal</span><span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+   <span class="token keyword">int</span> sum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token comment">// 1u</span>
+   <span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>   <span class="token comment">// 1u</span>
+   <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">// nu</span>
+     sum <span class="token operator">=</span> sum <span class="token operator">+</span> i<span class="token punctuation">;</span>     <span class="token comment">// nu</span>
+   <span class="token punctuation">}</span>
+   <span class="token keyword">return</span> sum<span class="token punctuation">;</span>
+ <span class="token punctuation">}</span>
+</code></pre></div><p>根据上面分析，下面这段代码执行耗时(3 + n + n + n^2 + n^2)u = (2n^2 + 2n + 3)u</p> <div class="language-java extra-class"><pre class="language-java"><code>
+ <span class="token keyword">int</span> <span class="token function">cal</span><span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+   <span class="token keyword">int</span> sum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+   <span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+   <span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+   <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+     j <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+     <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token punctuation">;</span> j <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> <span class="token operator">++</span>j<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+       sum <span class="token operator">=</span> sum <span class="token operator">+</span>  i <span class="token operator">*</span> j<span class="token punctuation">;</span>
+     <span class="token punctuation">}</span>
+   <span class="token punctuation">}</span>
+ <span class="token punctuation">}</span>
+</code></pre></div><p>从上面2段代码总结规律：所有代码的执行时间T(n)与每行代码执行次数f(n)成正比。T(n) = O(f(n))。O表示正比关系。
+因此上面2段代码耗时用公式分别表示为T(n) = O(2n + 2), T(n) = O(2n^2 + 2n + 3)。进一步，如果n足够大，低阶、常量、系数等不足以影响复杂度的整个走势，因此上面2段代码
+时间复杂度可进一步表示我T(n) = O(n), T(n) = O(n^2)。<br>
+大O时间复杂度并不具体表示代码真正执行时间，而是表示代码执行时间随数据规模增长的变化趋势。</p> <ul><li>时间复杂度分析的实用方法
+<ul><li>只关注循环次数执行最多的一段代码</li> <li>加法法则T(n)=T1(n)+T2(n)=max(O(f(n)), O(g(n))) =O(max(f(n), g(n)))。需要注意不管常量循环的次数有多大，它不反应增长趋势，即便常量1000&gt;n^2，复杂度依然取n^2
+<ul><li>当有2个数据规模的循环时，如m和n,因为不知道哪个数量级大，不能随意取其中一个，因此加法的算法复杂度表示为O(m + n)</li></ul></li> <li>乘法法则：嵌套代码的复杂度等于嵌套内外代码复杂度的乘积。T(n) = T1(n) * T2(n) = O(f(n)) * O(g(n)) = O(f(n) * g(n))</li></ul></li> <li>常见的时间复杂度量级
+<ul><li>多项式量级
+<ul><li>常量阶O(1)
+<ul><li>常量级时间复杂度</li> <li>表示代码执行时间不随n的增大而增长的时间复杂度</li> <li>若代码中不存在循环、递归等，即便上千上万行代码依然是O(1)复杂度</li></ul></li> <li>对数阶O(logn)
+这边很多人可能有疑问这个logn是以多少为底的，实际上并不重要。统一记作logn。因为对数间可以转换如log3(n) = log3(2) * log2(n)，而log3(2)是个常数，可以忽略。因此以对数阶复杂度<br>
+我们直接忽略底数，记作O(logn)</li> <li>线性阶O(n)</li> <li>线性对数阶O(nlogn)
+<ul><li>理解O(nlogn)，可以想象外层n次循环，内层的时间复杂度是O(logn)，这样总复杂度就是O(nlogn)</li> <li>示例
+<ul><li>归并排序</li> <li>快速排序</li></ul></li></ul></li> <li>平方阶O(n^2)</li> <li>立方阶O(n^3)</li> <li>k次方阶O(n^k)</li></ul></li> <li>非多项式量级
+非多项式量级的算法问题成为NP（None-Deterministic Polynomial非确定多项式）问题。随着n的增大，算法执行时间急剧增加，算法效率极其低下。
+<ul><li>指数阶O(2^n)</li> <li>阶乘阶O(n!)</li></ul></li></ul></li> <li>空间复杂度（渐近空间复杂度）
+表示算法的存储空间与数据规模的增长关系
+常用空间复杂度O(1),O(n),O(n^2)</li> <li>考量几个典型的算法复杂度
+考虑如下代码</li></ul> <div class="language-java extra-class"><pre class="language-java"><code><span class="token comment">// n表示数组array的长度, 返回无序数组中指定元素的位置</span>
+<span class="token keyword">int</span> <span class="token function">find</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> array<span class="token punctuation">,</span> <span class="token keyword">int</span> n<span class="token punctuation">,</span> <span class="token keyword">int</span> x<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+  <span class="token keyword">int</span> pos <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> n<span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>array<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> x<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        pos <span class="token operator">=</span> i<span class="token punctuation">;</span>
+        <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">return</span> pos<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>正常情况不需要区分最好，最坏，平均时间复杂度。只有存在量级差距时才进行区分。</p> <ul><li>最好情况时间复杂度
+最理想情况下，元素x出现在数组中的第一个位置处：O(1)</li> <li>最坏情况时间复杂度
+最糟糕情况下，元素x不存在于数组中：O(n)</li> <li>平均情况时间复杂度（加权平均时间复杂度）
+考虑最好情况和最坏情况出现的概率不大，因此引入平均情况时间复杂度：
+不考虑概率：(1（在第一个位置） + 2 + ... + n  + n（不在数组中）) / (n + 1) = (n^2 + 3n ) /2(n + 1)，简化后为O(n)
+考虑概率：每个位置出现的概率为1/2n。那么<code>1*1/2n + 2*1/2n+...+ n*1/2n + n*1/2</code>=(3n+1)/4，该值为加权平均值（期望值），复杂度依然是O(n)</li> <li>均摊时间复杂度
+用另一段代码理解均摊时间复杂度。这段代码用概率论可以分析，不用概率率也可以，因为它是有规律的。对于前n次插入复杂度是O(1)，对于n+1次复杂度为O(n).
+因此这一次的复杂度可以均摊到前n次中。因此整个复杂度就是O(1)。<div class="language-java extra-class"><pre class="language-java"><code>  <span class="token comment">// array表示一个长度为n的数组</span>
+  <span class="token comment">// 代码中的array.length就等于n</span>
+  <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> array <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span>n<span class="token punctuation">]</span><span class="token punctuation">;</span>
+  <span class="token keyword">int</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+  
+  <span class="token keyword">void</span> <span class="token function">insert</span><span class="token punctuation">(</span><span class="token keyword">int</span> val<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>count <span class="token operator">==</span> array<span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">int</span> sum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+      <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> array<span class="token punctuation">.</span>length<span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        sum <span class="token operator">=</span> sum <span class="token operator">+</span> array<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+      array<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> sum<span class="token punctuation">;</span>
+      count <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  
+    array<span class="token punctuation">[</span>count<span class="token punctuation">]</span> <span class="token operator">=</span> val<span class="token punctuation">;</span>
+    <span class="token operator">++</span>count<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div></li></ul> <p>平均复杂度和均摊复杂度容易混淆，但均摊复杂度适用场景更小。对于上面示例这种大部分情况复杂度低，偶尔一次复杂度高，且它们之间出现有序时，才会使用均摊复杂度。</p> <h3 id="递归算法"><a href="#递归算法" class="header-anchor">#</a> 递归算法</h3> <p>递归就像梦中梦，从现实进入一层梦，继而二层梦，，再层层回来就，回到二层梦，再回到现实。</p> <p>递归问题本质上是将一个大问题逐层分解为较小的子问题，这个分解问题的过程可以理解为递，直到递终止，然后由最里层逐层返回计算结果，直到最外层计算完毕，这个
+结果逐层返回的过程，可以认为是归。</p> <p>我们较为熟悉的递归问题有爬楼梯问题，斐波那契数列，系统菜单的展示算法，Java程序方法的递归调用本质上是方法栈帧的不断压栈，所以如果递归层次太深，可能会引起栈溢出的错误。
+对于递归除了需要注意栈溢出，递归常常会存在重复计算。可以使用hash表将之前计算的结果存起来，以空间换区时间。</p> <p>我们写递归常见的思维误区是人肉递归，常常发生脑容量溢出的奇效。因此面对一个递归，我们首先写好递归终止条件，然后写递归公式即可。</p> <h4 id="递归需要满足的三个条件"><a href="#递归需要满足的三个条件" class="header-anchor">#</a> 递归需要满足的三个条件</h4> <ul><li>一个问题的解可以分为几个子问题的解</li> <li>这个问题与分解之后的子问题，除了数据规模不同，求解思路完全一样</li> <li>存在递归终止条件</li></ul> <h4 id="递归的优缺点及改写"><a href="#递归的优缺点及改写" class="header-anchor">#</a> 递归的优缺点及改写</h4> <p>优点是代码编写简洁。缺点是可能导致栈溢出，重复计算，函数调用耗时，空间复杂度高。
+递归代码一般总是可以转换为非递归代码。递归本质上可以理解为循环，它的层可以转换为循环的次数，而每层的计算可以理解为循环计算的内容，只不过每层计算的结果
+需要额外通过变量记录，以便下次循环使用。</p> <h3 id="排序算法"><a href="#排序算法" class="header-anchor">#</a> 排序算法</h3> <p>顺序表示一种秩序，通常是人们出于统计目的对一组值进行按照特定大小，先后规则进行调整，以达到特定维度观察事物，对未来进行预估的目的。比如对最近一周温度排序，以
+查看最高温度和最低温度，对一组学生的成绩进行排序以确定第一名等。</p> <h4 id="如何分析排序算法"><a href="#如何分析排序算法" class="header-anchor">#</a> 如何分析排序算法</h4> <ul><li>排序算法的执行效率衡量点
+<ul><li>最好、最好、最坏情况时间复杂度</li> <li>时间复杂度的系数、常数、低阶
+<ul><li>当对同阶时间复杂度的排序算法性能比对时考虑</li></ul></li> <li>比较次数、交换(或移动)次数</li></ul></li> <li>排序算法的内存消耗
+<ul><li>原地排序：空间复杂度O(1)</li></ul></li> <li>排序算法的稳定性
+值相等的元素，经过算法的排序后，能保持其顺序的就是稳定算法
+<ul><li>订单按照金额从小到大排序，对于相同金额的订单按照下单时间从早到晚排序。
+<ul><li>可以按照时间从早到晚先排序，然后利用稳定的排序算法对金额从小到大排序。</li></ul></li></ul></li> <li>引入有序度和乱序度分析平均时间复杂度
+有序度是具有有序关系的元素对个数
+一组数1,2,3,4,5,6可以组合成(1,2),(1,3),.........15个序对 n*(n - 1) /2
+如果全部正序，则有序度为15（满有序度），逆序度为0，如果全部逆序，则有序度为0，逆序度为15。
+排序的过程可以理解为减少逆序度，增加逆序度到满有序度的过程。</li> <li>各排序算法时间复杂度、稳定性等总结</li></ul> <table><thead><tr><th>排序算法</th> <th>原地排序算法</th> <th>稳定排序算法</th> <th>最好时间复杂度</th> <th>最坏时间复杂度</th> <th>平均时间复杂度</th></tr></thead> <tbody><tr><td>冒泡排序</td> <td>是</td> <td>是</td> <td>O(n)</td> <td>O(n^2)</td> <td>O(n^2)</td></tr> <tr><td>插入排序</td> <td>是</td> <td>是</td> <td>O(n)</td> <td>O(n^2)</td> <td>O(n^2)</td></tr> <tr><td>选择排序</td> <td>是</td> <td>否</td> <td>O(n^2)</td> <td>O(n^2)</td> <td>O(n^2)</td></tr> <tr><td>归并排序</td> <td>否（空间复杂度O(n)）</td> <td>是</td> <td>O(nlogn)</td> <td>O(nlogn)</td> <td>O(nlogn)</td></tr> <tr><td>快速排序</td> <td>是</td> <td>否</td> <td>O(nlogn)</td> <td>O(n^2)</td> <td>O(nlogn)</td></tr></tbody></table> <p>按算法时间复杂度大致分为3类</p> <h4 id="o-n-2"><a href="#o-n-2" class="header-anchor">#</a> O(n^2)</h4> <p>适合小规模数据的排序</p> <ul><li>冒泡排序
+<ul><li>相邻元素进行大小比较，逆序则交换顺序</li></ul></li> <li>插入排序
+<ul><li>在一个有序集合中，在能维持集合有序的位置插入新元素的思想</li> <li>分为已排序区间和未排序区间
+<ul><li>初始已排序区间里只有第一个元素</li> <li>从未排序区间里取出一个元素，插入到正确的位置保持已排序区间的有序。重复这个过程，直到未排序区间没有元素。
+<ul><li>在和已排序区间元素比较时，从头到尾和从尾到头比较，比较次数有区别</li> <li>整个排序过程移动总次数一定，等于逆序度，每次移动的个数等于每次增加的有序度数。</li></ul></li></ul></li></ul></li> <li>选择排序
+<ul><li>类似插入排序，分为已排序和未排序区间，不同的是每次从未排序区间中通过比较选出最小的，放到已排序区间末尾。</li> <li>不是稳定排序算法，如3,3,5,1，经过第一次排序变成1,3,5,3，可以看到2个3的顺序已经变化了。</li></ul></li></ul> <h4 id="o-nlogn"><a href="#o-nlogn" class="header-anchor">#</a> O(nlogn)</h4> <p>适合大规模的数据排序</p> <ul><li>归并排序（Merge Sort）
+<ul><li>使用分治思想</li> <li>将待排序数据从中间一分为二，再对划分后的每个子问题再进行划分，直到不可再分，之后对划分后的最小问题单元进行比较计算，得到一个个结果集，再将这些结果集一一合并。</li> <li>实现手段：递归<div class="language-shell extra-class"><pre class="language-shell"><code>递推公式：
+merge_sort<span class="token punctuation">(</span>p…r<span class="token punctuation">)</span> <span class="token operator">=</span> merge<span class="token punctuation">(</span>merge_sort<span class="token punctuation">(</span>p…q<span class="token punctuation">)</span>, merge_sort<span class="token punctuation">(</span>q+1…r<span class="token punctuation">))</span>
+终止条件：
+p <span class="token operator">&gt;</span><span class="token operator">=</span> r 不用再继续分解
+</code></pre></div>merge的方式是额外用一个临时数组存放merge结果，最后放入原数组。</li> <li>空间复杂度O(n)</li></ul></li> <li>快速排序(QuickSort)
+<ul><li>分治、分区思想</li> <li>在pivot(基准)选择合理情况也就是最好时间复杂度O(nlogn)</li> <li>在pivot选择不合理情况也就是最坏时间复杂度O(n^2)</li></ul></li></ul> <h4 id="o-n"><a href="#o-n" class="header-anchor">#</a> O(n)</h4> <p>线性排序，非基于比较的排序算法</p> <ul><li>桶排序
+<ul><li>待排序数据分到有限的有序桶里。</li> <li>单独对每个桶里的数据进行排序</li> <li>依序取出桶里的数据。</li> <li>时间复杂度为O(n)
+n个数，m个桶。每个桶k = n/m个元素，k个元素快排时间复杂度O(klogk)，每个桶总共复杂度O(mklogk)=O(nlogn/m)，当桶个数m接近n
+时，时间复杂度接近于O(n)</li> <li>桶排序苛刻的使用场景
+<ul><li>待排序数据容易分成m个桶</li> <li>桶与桶之间有天然的大小顺序</li> <li>各个桶里的数据分布均匀，否则退化为O(nlogn)的时间复杂度。</li></ul></li> <li>桶排序适合用在外部排序中，如对外部磁盘上大数据量无法一次加载到较小内存中进行排序的场景
+<ul><li>用100M内存对10G订单数据进行排序。
+<ul><li>扫描订单数据，确定金额范围如1~10w</li> <li>将金额划分为100个桶。对桶进行编号，桶依次存放1~1000,1001~2000区间金额的订单等</li> <li>将订单数据分别放入这100个桶，对应100个文件。分别对这100个文件进行排序。</li> <li>依次读入排好序的文件，将其写入同一个文件中，这个文件存放的就是排好序的订单数据。</li></ul></li></ul></li></ul></li> <li>计数排序
+<ul><li>用在数据范围不大的场景中</li> <li>只能给非负整数排序，其他数据要转换为非负整数</li></ul></li> <li>基数排序
+<ul><li>需要分割出独立的”位“来比较，位之间有递进关系，如a的高位比b大，剩下的低位就不用比较了。</li> <li>每一位的数据范围不能太大，要可以使用线性排序算法来排序，否则基数排序的时间复杂度无法做到O(n)</li> <li>对10w手机号排序，对单词进行排序（补齐0再排序）</li></ul></li></ul> <h4 id="如何实现一个通用的排序算法"><a href="#如何实现一个通用的排序算法" class="header-anchor">#</a> 如何实现一个通用的排序算法</h4> <p>O(n)时间复杂度的线性排序使用场景严格，因此不适用于做通用算法，O(n^2)时间复杂度的算法适用于小规模数据的排序。作为一个通用算法，选择O(nlogn)时间复杂度的算法
+实现，在此基础上再结合数据规模做些优化，O(nlogn)时间复杂度的算法有归并、快排、堆排，但归并不是原地排序算法，空间复杂度高，不适合。因此一般采用归并排序作为
+通用实现算法，归并是基于递归实现的，因此有栈溢出等风险，因此可以基于堆实现方法调用栈。脱离系统内置的栈限制。另外对于小规模数据的排序，O(n^2)时间复杂度的算法
+实际占用时间可能小于O(nlogn)的，因此在小规模数据场景下，算法可以退化为使用O(nlogn)的插入排序算法。</p> <h3 id="生活中的数据结构与算法"><a href="#生活中的数据结构与算法" class="header-anchor">#</a> 生活中的数据结构与算法</h3> <h4 id="图书馆的书籍存放方式-借一本书查找其位置的算法"><a href="#图书馆的书籍存放方式-借一本书查找其位置的算法" class="header-anchor">#</a> 图书馆的书籍存放方式，借一本书查找其位置的算法</h4> <h2 id="do-it"><a href="#do-it" class="header-anchor">#</a> do it</h2> <h3 id="链表-2"><a href="#链表-2" class="header-anchor">#</a> 链表</h3> <ul><li>单链表反转</li> <li>链表中环的检测</li> <li>两个有序的链表合并</li> <li>删除链表倒数第n个结点</li> <li>求链表的中间结点</li></ul></div> <footer class="page-edit" style="display:none;"><!----> <!----></footer> <!----> <!----> <!----></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/assets/js/app.198c1c7f.js" defer></script><script src="/assets/js/3.e89c7bc2.js" defer></script><script src="/assets/js/1.f801d562.js" defer></script><script src="/assets/js/10.9e9a9a99.js" defer></script>
+  </body>
+</html>
